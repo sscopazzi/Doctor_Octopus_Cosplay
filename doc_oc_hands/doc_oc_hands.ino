@@ -13,6 +13,7 @@ Sub-micro Servo - SG51R: https://www.adafruit.com/product/2201
 
 This code was adapted from the Adafruit servo example code.
  *************************************************************************/
+
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
 
