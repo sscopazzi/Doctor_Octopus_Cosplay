@@ -70,6 +70,7 @@ void loop() {
   for (uint16_t microsec = USMIN; microsec < USMAX; microsec++) {
     pwm.writeMicroseconds(hand1_finger1, microsec);
     pwm.writeMicroseconds(hand2_finger1, microsec);
+    pwm.writeMicroseconds(hand3_finger1, microsec);
   }
   Serial.println("Finger 2 out");
   for (uint16_t microsec = USMIN; microsec < USMAX; microsec++) {
