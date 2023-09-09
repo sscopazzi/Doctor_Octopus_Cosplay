@@ -1,4 +1,6 @@
 /************************************************************************* 
+This is a test file to play around with while we sort things out
+
 RESOURCES USED
 https://learn.adafruit.com/adafruit-16-channel-pwm-slash-servo-shield
             
