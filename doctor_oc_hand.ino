@@ -22,7 +22,7 @@ Adafruit_PWMServoDriver pwm = Adafruit_PWMServoDriver();
 
 // I found 850-1650 to be the desired range of travel
 #define USMIN  850 // This is the rounded 'minimum' microsecond length based on the minimum pulse of 150
-#define USMAX  1650 // This is the rounded 'maximum' microsecond length based on the maximum pulse of 600
+#define USMAX  1500 // This is the rounded 'maximum' microsecond length based on the maximum pulse of 600
 #define SERVO_FREQ 50 // Analog servos run at ~50 Hz updates
 
 // HAND ONE, HEADERS 0-3
@@ -57,10 +57,10 @@ void setup() {
 
 // CONT SERVOS - SPIN THE HANDS
 // still need to figure out two spinning backwards
-  pwm.setPWM(hand1_cont, 0, 302); // 302 is the lowest speed the cont servos will spin at 
-  pwm.setPWM(hand2_cont, 0, 302);
-  pwm.setPWM(hand3_cont, 0, 302);
-  pwm.setPWM(hand4_cont, 0, 302);
+  pwm.setPWM(hand1_cont, 0, 297); // 302 is the lowest speed the cont servos will spin at 
+  pwm.setPWM(hand2_cont, 0, 297);
+  pwm.setPWM(hand3_cont, 0, 297);
+  pwm.setPWM(hand4_cont, 0, 297);
   
   delay(10);
 }
