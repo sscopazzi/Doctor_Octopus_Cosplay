@@ -1,4 +1,4 @@
-# Doctor Octopus Cosplay Robotic Hands
+# Doctor Octopus Cosplay (Robotic Hands)
 Code, CAD + STLs, wiring diagram, and everything else needed to replicate our Arduino servo-driven hands for a Doctor Octopus cosplay.
 
 Files in this GitHub:
